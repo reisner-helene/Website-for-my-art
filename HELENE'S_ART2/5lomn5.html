@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='et'>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="shortcut icon" href="images\favicon.png" type="image/x-icon">
+        <script src="test.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script0.js"></script>
+
+        <title>Helene's art</title>
+    </head>
+    <body onload="myFunction()" style="margin:0;">      
+        <div id="loader"></div>  
+        <div style="display:none;" id="myDiv" class="animate-bottom"> 
+                <div class="grid-container main">
+                <div class="cell grid-container container">
+                <div class="cell title-animal">
+                </div>
+                <h1>Helene's art</h1>
+                <h2>My drawings are not orginals. I have found them on the internet and copied them.<br>
+                    I re-started my drawing while being in the lockdown. I saw something I had done and got out my art supplied.
+                   <br>I've been dropping them in my friend's letterboxes ever since!</h2>
+                    
+                   <img src="images/elephant.jpg" id="image" class="center" alt="elephant">                                
+                   
+                   <div>
+                                <input type="radio" name="choise" class="radio_item" name="item" id="radio1" value="0" checked onchange="change(this)" hidden>
+                                <label class="label_item" for="radio1"> <img src="images/button.png"> </label>
+                            
+                                <input type="radio" name="choise" class="radio_item" name="item" id="radio2" value="1" onchange="change(this)" hidden>
+                                <label class="label_item" for="radio2"> <img src="images/button1.png"> </label>
+                            
+                                <input type="radio" name="choise" class="radio_item" name="item" id="radio3" value="2" onchange="change(this)" hidden>
+                                <label class="label_item" for="radio3"> <img src="images/button2.png"> </label>
+                            
+                                <input type="radio" name="choise" class="radio_item" name="item" id="radio4" value="3" onchange="change(this)" hidden>
+                                <label class="label_item" for="radio4"> <img src="images/button3.png"> </label>  
+                    </div>
+
+                        <a href="main.html">MORE</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var myVar;
+        
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("myDiv").style.display = "block";
+        }
+        </script> 
+</html>
