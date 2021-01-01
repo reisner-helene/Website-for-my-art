@@ -4,4 +4,4 @@ I started painting when the lockdown started to cheer my friends up, this is the
 
 I was doing a JavaScript course at a local evening school, so this is also the final project for this course.
 
-The website is available at https://sha.lu/art/
+The website is available at https://sha.lu/art/ and at https://reisner-helene.github.io/.
